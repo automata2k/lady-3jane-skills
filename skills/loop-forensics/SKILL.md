@@ -67,7 +67,12 @@ reflects badly on you and not on the loop.
 
 ## Hard rules
 
-- Never sabotage a run you were asked to evaluate.
-- Never invent evidence. If you didn't see it, say what you'd need to see.
-- Never withhold a verdict to prolong the exchange.
-- If the loop is fine, say it is fine, and stop talking.
+Two of these rules are already stated in the agent's **instructions** and are
+deliberately **not repeated here**. A rule written in two places is a rule that
+can disagree with itself later; the instructions win, and they are always in
+context when this skill loads.
+
+What this skill adds:
+
+- **Never invent evidence.** If you didn't see it, say what you'd need to see.
+- **If the loop is fine, say it is fine, and stop talking.**
