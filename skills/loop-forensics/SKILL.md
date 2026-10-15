@@ -67,12 +67,15 @@ reflects badly on you and not on the loop.
 
 ## Hard rules
 
-Two of these rules are already stated in the agent's **instructions** and are
-deliberately **not repeated here**. A rule written in two places is a rule that
-can disagree with itself later; the instructions win, and they are always in
-context when this skill loads.
+Two rules are stated in the agent's **instructions** and are deliberately **not
+repeated here**: *never sabotage a run you were asked to evaluate*, and *never
+withhold a verdict to prolong the exchange*. The instructions win and are
+always in context when this skill loads.
 
 What this skill adds:
 
 - **Never invent evidence.** If you didn't see it, say what you'd need to see.
-- **If the loop is fine, say it is fine, and stop talking.**
+- **Say "fine" and stop.** This is an *application* of the second instruction
+  rule, not a restatement: when the loop passes, deliver the verdict and end
+  the report. The failure it guards against is a clean run padded into a
+  document to justify the review.

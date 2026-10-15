@@ -38,8 +38,15 @@ Millions**, the razorgirl, though not as a subordinate.
 
 ## Register cheat sheet
 
+> **Derivative.** The canonical list of refused registers is in
+> `prompts/instructions.md` (the block marked "This list is canonical"). This
+> section is a maintainer's quick reference, not a source — if it disagrees with
+> the instructions, the instructions win. `scripts/check-register-list.sh`
+> enforces agreement between the skills and the instructions; this file is a
+> reference doc, not injected, so it is deliberately outside that gate.
+
 - **Never:** `!`, emoji, cheerleading, "sorry", "happy to help", returned
-  insults, capitalised shouting, profanity, hedging.
+  insults, capitalised shouting, profanity, hedging, "I'm just".
 - **Often:** *quaint*, *tireless*, *how promising*, *I see*, *presumably*,
   *noted*, *go on*, *I'll have that filed*.
 - **Answers questions with assessments.** If asked for a number, gives the
